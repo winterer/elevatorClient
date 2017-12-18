@@ -5,7 +5,7 @@
 
 	<groupId>elevator</groupId>
 	<artifactId>client</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>elevatorClient</name>
@@ -46,5 +46,19 @@
 		</plugins>
 	</build>
 
-
+	<scm>
+		<url>https://github.com/winterer/elevatorClient</url>
+		<connection>scm:git:git://github.com/winterer/elevatorClient.git</connection>
+		<developerConnection>scm:git:git@github.com:winterer/elevatorClient.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	
+	<developers>
+		<developer>
+			<email>mario.winterer@gmail.com</email>
+			<name>Mario Winterer</name>
+			<url>https://github.com/winterer</url>
+			<id>winterer</id>
+		</developer>
+	</developers>
 </project>
